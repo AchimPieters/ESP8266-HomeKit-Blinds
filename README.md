@@ -7,8 +7,8 @@ For More Information Visit http://www.studiopieters.nl
 
 - [ ] Debugging the Main Code
 - [ ] Testing The Hardware
-- [ ] ..
-- [ ] ..
+- [ ] Add manual positioning code
+- [ ] Add positioning to EEPROM 
 - [ ] ..
 
 
