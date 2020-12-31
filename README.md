@@ -5,11 +5,12 @@ For More Information Visit http://www.studiopieters.nl
 
 ## Note: Work In progress!
 
-- [ ] Debugging the Main Code
-- [ ] Testing The Hardware
-- [ ] Add manual positioning code
-- [ ] Add positioning to EEPROM code
-- [ ] ..
+- [X] Debugging the Main Code
+- [X] Testing The Hardware
+- [X] Add manual positioning code
+- [X] Add positioning to EEPROM code
+- [ ] 3D Models
+- [ ] Field Testing
 
 
 [![GitHub All Releases](https://img.shields.io/github/downloads/achimpieters/ESP8266-HomeKit-Blinds/total?color=green)](https://github.com/achimpieters/ESP8266-HomeKit-Blinds/releases) 
