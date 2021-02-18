@@ -16,6 +16,10 @@ ESP8266 - HomeKit Blinds
 - [ ] 3D Models
 - [X] Field Testing
 
+# installation
+[Blinds Setup](https://github.com/AchimPieters/ESP8266-HomeKit-Blinds/wiki/Blinds-Setup)
+
+
 For More Information Visit https://www.studiopieters.nl/esp8266-homekit-blinds
 
 
