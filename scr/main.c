@@ -122,8 +122,10 @@ void stepper_write(int stepper, bool on) {
 
 
 int stepcount = 0;
-float multiplier;
-homekit_characteristic_t factor = HOMEKIT_CHARACTERISTIC_( FACTOR, 0 );
+int multiplier = 0;
+
+homekit_characteristic_t factor = HOMEKIT_CHARACTERISTIC_( CUSTOM_FACTOR, 0 );
+
 
 void calibration_task() {
         if (stepcount == 0)
@@ -164,7 +166,6 @@ void load_settings_from_flash (){
         printf("%s: Start, Freep Heap=%d\n", __func__, xPortGetFreeHeapSize());
         load_characteristic_from_flash(&factor);
         multiplier = factor.value.float_value;
-
         printf("%s: End, Freep Heap=%d\n", __func__, xPortGetFreeHeapSize());
 }
 
