@@ -30,18 +30,16 @@
 #define HOMEKIT_CUSTOM_UUID_DBB(value) (value "-4772-4466-80fd-a6ea3d5bcd55")
 
 #define HOMEKIT_CHARACTERISTIC_CUSTOM_FACTOR HOMEKIT_CUSTOM_UUID_DBB("F0000001")
-#define HOMEKIT_DECLARE_CHARACTERISTIC_CUSTOM_FACTOR(_value, ...), \
-        .type = HOMEKIT_CHARACTERISTIC_CUSTOM_FACTOR, \
-        .description = "Factor", \
-        .format = homekit_format_float, \
-        .permissions = homekit_permissions_paired_read \
-                       | homekit_permissions_notify, \
-        .min_value = (float[]) {0}, \
-        .max_value = (float[]) {30000}, \
-        .min_step = (float[]) {1}, \
-        .value = HOMEKIT_FLOAT_(_value), \
-        ## __VA_ARGS__
-
+#define HOMEKIT_DECLARE_CHARACTERISTIC_CUSTOM_FACTOR(_value, ...), \.type = HOMEKIT_CHARACTERISTIC_CUSTOM_FACTOR, \
+.description = "Factor", \
+.format = homekit_format_float, \
+.permissions = homekit_permissions_paired_read \
+| homekit_permissions_notify, \
+.min_value = (float[]) {0}, \
+.max_value = (float[]) {30000}, \
+.min_step = (float[]) {1}, \
+.value = HOMEKIT_FLOAT_(_value), \
+## __VA_ARGS__
 
 #endif
 
