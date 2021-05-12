@@ -13,7 +13,7 @@ ESP8266 - HomeKit Blinds
 - [X] Testing The Hardware
 - [X] Add manual positioning code
 - [X] Add positioning to EEPROM code
-- [ ] 3D Models
+- [X] 3D Models
 - [X] Field Testing
 
 # Installation
